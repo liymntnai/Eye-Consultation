@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Whisper&display=swap');
+
+:root{
+    --body-color:#333;
+    --primary-color: #047aed;
+    --input-border-color: #b4becb;
+    --secondary-color:#1c3fa8;
+    --dark-color:#002248;
+    --light-color:#f4f4f4;
+    --success-color:#5cb85c;
+    --error-color:#d9534f;
+    --gold-color:gold;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+header{
+    background-color: #e7e7e7;
+    box-shadow: 0 0 4px #222;
+    padding: 20px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.35rem;
+    justify-content: space-around;
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo-image{
+    width: 50px;
+}
+.kishi{
+    margin-left: 15px;
+}
+.header .kishi{
+    margin-left: 0;
+}
+.kishi p{
+    color: gold;
+    font-size: 2.2rem;
+    font-family: "Whisper", cursive;
+}
+
+.nav-items{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #292929;
+}
+.nav-items:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #047aed;
+
+}
+
+
+/* LANDING SECTION*/
+.landing{
+    width: 100%;
+    /* background-image: url('img/white-hat-chef.jpg');*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1))
+     , url('img/doctor2.jpg');
+    background-color: #984e4e;
+    height:60vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: visible;
+
+}
+.left{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    max-width: 480px;
+    margin:60px ;
+
+}
+
+.btn{
+    width: 50%;
+    font-size: 1.2em;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.btn-signup{
+    background-color: #d1d1d1;
+    color: #047aed;
+}
+.title{
+    font-weight: 400;
+    font-size: 2em;   
+    line-height: 1.3em;
+    /* letter-spacing: 2px; */
+}
+.containers{
+    margin-top: -25px;
+    padding: 0 60px;
+}
+.containers .flex{
+position: relative;
+top: -25px;
+    /* margin: ; */
+}
+.container{
+    width: 260px;
+    height: 260px;
+}
+.container-image {
+    border-radius: 10px;
+    box-shadow: 0 0 4px #222;
+    z-index: 100;
+}
+.plans a {
+
+    color:steelblue;
+    font-size: 1.8em;
+}
+.plans a:hover  {
+    color: skyblue;
+    cursor: pointer;
+}
+
+.how-it-works .image{
+    justify-self: end;
+    /* width: 260px; */
+    height: 150px;
+}
+/* How it works */
+.how-it-works{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+
+    /* display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.35rem;
+    justify-content: space-around; */
+}
+.working{
+    max-width: 892px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.working-text{
+max-width: 460px;
+}
+.working .list{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #d9534f;
+    color:#fff;
+}
